@@ -1,0 +1,20 @@
+WAP TO SWAP THE FIRST HAL AND SECOND HALF OF AN ARRAY
+
+#include<stdio.h>
+void main()
+{
+   int a[10],i,j,t,ele;
+   ele=sizeof(a)/sizeof(a[0]);
+   printf("enter the elemnts\n");
+   for(i=0;i<ele;i++)
+      scanf("%d",&a[i]);
+   for(i=0;i=ele/2;i<ele,j<ele;i++,j++)
+   {
+       t=a[i];
+       a[i]=a[j];
+       a[j]=t;
+  }
+  printf("after swapping\n");
+  for(i=0;i<ele;i++)
+      printf("%d",a[i]);
+}
